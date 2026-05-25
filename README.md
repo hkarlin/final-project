@@ -1,4 +1,4 @@
-This project analyzes 119,491 NYC Department of Buildings complaints filed in 2025, sourced from NYC Open Data via the Socrata API. The data was cleaned and enriched in Python using pandas, then queried in SQL using an in-memory SQLite database. Two scikit-learn models were built to predict resolution time and access denial outcomes, both of which performed near chance, suggesting the current dataset lacks the features needed for reliable forecasting.
+This project analyzes 119,491 NYC Department of Buildings complaints filed in 2025, sourced from NYC Open Data via the Socrata API. The data was cleaned and enriched in Python using pandas, then queried in SQL using an in-memory SQLite database. Two sklearn models were built to predict resolution time and access denial outcomes, both of which performed near chance, suggesting the current dataset lacks the features needed for reliable forecasting.
 
 Key findings: 
 1) Illegal Conversion is the highest-volume and slowest-resolving complaint type (135.6 days average)
